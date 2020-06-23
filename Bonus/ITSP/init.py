@@ -1,0 +1,36 @@
+from team.models import team , member
+
+#create team
+t1 = team.objects.create(team_name = "team A")
+t1.save()
+t2 = team.objects.create(team_name = "team B")
+t2.save()
+t3 = team.objects.create(team_name = "team C")
+t3.save()
+
+
+#create members
+m1 = member.objects.create(team = t1 , member_name = "ABC")
+m1.save()
+m2 = member.objects.create(team = t1 , member_name = "ACD")
+m2.save()
+m3 = member.objects.create(team = t1 , member_name = "ADE")
+m3.save()
+m4 = member.objects.create(team = t1 , member_name = "AEF")
+m4.save()
+m5 = member.objects.create(team = t2 , member_name = "BCD")
+m5.save()
+m6 = member.objects.create(team = t2 , member_name = "BDE")
+m6.save()
+m7 = member.objects.create(team = t2 , member_name = "BEF")
+m7.save()
+m8 = member.objects.create(team = t2 , member_name = "BFG")
+m8.save()
+m9 = member.objects.create(team = t3 , member_name = "CDE")
+m9.save()
+m10 = member.objects.create(team = t3 , member_name = "CEF")
+m10.save()
+m11 = member.objects.create(team = t3 , member_name = "CFG")
+m11.save()
+m12 = member.objects.create(team = t3 , member_name = "CGH")
+m12.save()
