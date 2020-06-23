@@ -4,7 +4,7 @@ For Question 1, the navigation bar helps to navigate krom team page to members p
 
 For Question 2, the navigation bar helps to switch between team detail pages and home pages, one can also got o the team detail page by clicking on the photograph. The dynamic scrollbar apperas to the left in cyan color.
 
-Bonus, it is as per the instructions.
+Bonus, it is as per the instructions, just like react js.
 
 Packages to be installed:
 
