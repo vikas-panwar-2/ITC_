@@ -14,3 +14,5 @@ npm
 React js
 React-bootstrap
 React-router
+Django Rest Framework
+django-cors-headers
